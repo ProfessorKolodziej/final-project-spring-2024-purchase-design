@@ -1,0 +1,196 @@
+{
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "langone",
+                "price": 910.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/p1.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "deluxe",
+                "price": 812.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-2.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "flower",
+                "price": 712.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-3.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "barber",
+                "price": 622.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-4.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "book1",
+                "price": 688.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-5.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "title": "book2",
+                "price": 532.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-6.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "book3",
+                "price": 545.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-7.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "book4",
+                "price": 440.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-8.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "9"
+            },
+            "fields": {
+                "title": "book5",
+                "price": 386.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-9.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "10"
+            },
+            "fields": {
+                "title": "book7",
+                "price": 378.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-10.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "11"
+            },
+            "fields": {
+                "title": "Galaxy A60",
+                "price": 289.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-11.jpeg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "12"
+            },
+            "fields": {
+                "title": "book8",
+                "price": 248.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-12.jpeg"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

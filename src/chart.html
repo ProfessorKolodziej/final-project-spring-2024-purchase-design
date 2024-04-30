@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/airtable.js"></script>
+</head>
+
+<body>
+    <h1>Airtable</h1>
+
+    <script>
+
+        var Airtable = require('airtable');
+        var base = new Airtable({ apiKey: 'YOUR API KEY' }).base('appc02f3ZtQu5u3e8');
+
+        base('People').select({
+            maxRecords: 3,
+            view: "All people"
+        }).eachPage(function page(records, fetchNextPage) {
+            records.forEach(function (record) {
+                console.log('Retrieved', record.get('Name'));
+            });
+            fetchNextPage();
+        }, function done(err) {
+            if (err) { console.error(err); return; }
+        });
+
+    </script>
+</body>
+
+</html>
